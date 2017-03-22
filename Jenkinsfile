@@ -6,6 +6,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('Another Example') {
+            steps {
+                echo 'Hello UCI'
+            }
+        }
     }
     post {  
         always {
